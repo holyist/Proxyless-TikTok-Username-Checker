@@ -1,6 +1,6 @@
 import random, string
 
-output_file = "usernames.txt"
+output_file = "usernames.txt4"
 amount = int(input("\nAmount of strings: "))
 character_amount = int(input("How many characters: "))
 
