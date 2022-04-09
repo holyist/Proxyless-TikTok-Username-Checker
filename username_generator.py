@@ -2,7 +2,7 @@ import random, string
 
 output_file = "usernames.txt"
 amount = int(input("\nAmount of strings: "))
-character_amount = int(input("How many characters: "))
+character_amount = int(input("How many characters:4 "))
 
 for i in range(amount):
     generated = ("").join(random.choices(string.ascii_letters + string.digits, k = character_amount))
